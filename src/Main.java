@@ -80,10 +80,10 @@ public class Main {
         byte iceCream = 2;
         byte eggs = 4;
         byte bananaWeight = 80;
-        byte milk100MlWeignt = 105;
+        byte milkW = 105;
         byte onePackIceCreamWeight = 100;
         byte oneEggWeight = 70;
-        int athleticDrinkWeight = banana * bananaWeight + milk * milk100MlWeignt + iceCream * onePackIceCreamWeight + eggs * oneEggWeight;
+        int athleticDrinkWeight = banana * bananaWeight + milk * milkW + iceCream * onePackIceCreamWeight + eggs * oneEggWeight;
         float athleticDinkWeightKilo = athleticDrinkWeight / 1000F;
         System.out.println("Вес спорт-завтрака "+athleticDrinkWeight+" грамм, или "+athleticDinkWeightKilo+" килограмм");
 
@@ -99,7 +99,27 @@ public class Main {
         System.out.println("В среднем спортсмену понадобится "+k+" дней, чтобы похудеть");
 
         //задание 8
-
+        double salaryMasha = 67760;
+        double salaryDenis = 83690;
+        double salaryCristina = 76230;
+        double newSalaryMasha = salaryMasha * 0.1 + salaryMasha;
+        System.out.println("Маша получает после повышения зарплаты" + Math.round(newSalaryMasha));
+        double newSalaryDenis = salaryDenis * 0.1 + salaryDenis;
+        System.out.println("Денис получает после повышения зарплаты" + Math.round(newSalaryDenis));
+        double newSalaryCristina = salaryCristina * 0.1 + salaryCristina;
+        System.out.println("Кристина получает после повышения зарплаты " + Math.round(newSalaryCristina));
+        double salaryMashaYear = salaryMasha * 12;
+        double newSalaryMashaYear = newSalaryMasha * 12;
+        double differenceSalaryMasha = newSalaryMashaYear - salaryMashaYear;
+        System.out.println("Годовой доход Маши до повышения был "+ Math.round(salaryMashaYear)+" ,а после повышения зарплаты "+Math.round(newSalaryMashaYear)+". Годовой доход вырос на "+Math.round(differenceSalaryMasha));
+        double salaryDenisYear = salaryDenis * 12;
+        double newSalaryDenisYear = newSalaryDenis *12;
+        double differenceSalaryDenis = newSalaryDenisYear - salaryDenisYear;
+        System.out.println("Годовой доход Дениса до повышения был "+ Math.round(salaryDenisYear)+" ,а после повышения зарплаты "+Math.round(newSalaryDenisYear)+". Годовой доход вырос на "+Math.round(differenceSalaryDenis));
+        double salaryCristinaYear = salaryCristina *12;
+        double newSalaryCristinaYear = newSalaryCristina *12;
+        double differenceSalaryCristina = newSalaryCristinaYear - salaryCristinaYear;
+        System.out.println("Годовой доход Кристины до повышения был "+ Math.round(salaryCristinaYear)+" ,а после повышения зарплаты "+Math.round(newSalaryCristinaYear)+". Годовой доход вырос на "+Math.round(differenceSalaryCristina));
 
 
     }
