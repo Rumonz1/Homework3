@@ -45,6 +45,27 @@ public class Main {
         System.out.println("На каждого ученика расчитано " +paperForOneStudent+ " листов бумаги!");
 
         //задание 4
+        int pftm = 16;
+        //сокарщение от perfomanceForTwoMinute
+        int pfom = pftm / 2;
+        int time1 = 20;
+        int time2 = 1440;
+        //сутки
+        int time3 = 4320;
+        //трое суток
+        int time4 = 43200;
+        //месяц
+        int pfTwentyMinutes = pfom * time1;
+        System.out.println("За 20 минут машина произвела бутылок "+pfTwentyMinutes+ " штук");
+        int pfDay = pfom * time2;
+        System.out.println("За сутки машина произвела бутылок "+pfDay+ " штук");
+        int pfThreeDays = pfom * time3;
+        System.out.println("За трое суток машина произвела бутылок "+pfThreeDays+ " штук");
+        int pfMonth = pfom * time4;
+        System.out.println("За месяц машина произвела бутылок "+pfMonth+ " штук");
+
+        //задание 5
+
 
 
     }
