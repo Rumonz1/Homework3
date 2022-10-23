@@ -84,7 +84,7 @@ public class Main {
         byte onePackIceCreamWeight = 100;
         byte oneEggWeight = 70;
         int athleticDrinkWeight = banana * bananaWeight + milk * milk100MlWeignt + iceCream * onePackIceCreamWeight + eggs * oneEggWeight;
-        float athleticDinkWeightKilo = athleticDrinkWeight / 1000;
+        float athleticDinkWeightKilo = athleticDrinkWeight / 1000F;
         System.out.println("Вес спорт-завтрака "+athleticDrinkWeight+" грамм, или "+athleticDinkWeightKilo+" килограмм");
 
         //задание 7
