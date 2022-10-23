@@ -13,5 +13,19 @@ public class Main {
         System.out.println("Значение переменной f с типом float равно "+f);
         double d = 3.14159265358979323846264;
         System.out.println("Значение переменной d с типом double равно "+d);
+
+        //задание 2
+        float fl = 27.12F;
+        long lo =987678965549L;
+        byte by = 2;
+        short sh = 786;
+        boolean boo = 5>6;
+        short ssh = 569;
+        int in = -159;
+        short sH = 27897;
+        byte bY = 67;
+
+        //задание 3
+
     }
 }
