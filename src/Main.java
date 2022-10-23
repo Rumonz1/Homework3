@@ -65,6 +65,16 @@ public class Main {
         System.out.println("За месяц машина произвела бутылок "+pfMonth+ " штук");
 
         //задание 5
+        byte totalColorJar = 120;
+        byte whiteColorJarForOneClass = 2;
+        byte brownColorJarForOneClass = 4;
+        int totalClasses = totalColorJar / (whiteColorJarForOneClass+brownColorJarForOneClass);
+        System.out.println("В школе "+totalClasses+ " классов");
+        int totalWhiteJars = totalClasses * whiteColorJarForOneClass;
+        int totalBrownJars = totalClasses * brownColorJarForOneClass;
+        System.out.println("В школе, где "+totalClasses+ " классов, нужно "+totalWhiteJars+" банок белой краски и "+totalBrownJars+" банок коричневой краски");
+
+        //задание 6
 
 
 
