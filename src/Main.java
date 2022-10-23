@@ -88,6 +88,17 @@ public class Main {
         System.out.println("Вес спорт-завтрака "+athleticDrinkWeight+" грамм, или "+athleticDinkWeightKilo+" килограмм");
 
         //задание 7
+        byte a = 7;
+        int c = 250;
+        int g = 500;
+        int days1= a*1000/c;
+        System.out.println(days1+" дней уйдёт на похудение,если спортсмен будет терять каждый день по "+c+" грамм");
+        int days2= a*1000/g;
+        System.out.println(days2+" дней уйдёт на похудение,если спортсмен будет терять каждый день по "+g+" грамм");
+        int k = (days1+days2)/2;
+        System.out.println("В среднем спортсмену понадобится "+k+" дней, чтобы похудеть");
+
+        //задание 8
 
 
 
