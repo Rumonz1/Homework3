@@ -16,16 +16,36 @@ public class Main {
 
         //задание 2
         float fl = 27.12F;
+        System.out.println(fl);
         long lo =987678965549L;
+        System.out.println(lo);
         byte by = 2;
+        System.out.println(by);
         short sh = 786;
+        System.out.println(sh);
         boolean boo = 5>6;
+        System.out.println(boo);
         short ssh = 569;
+        System.out.println(ssh);
         int in = -159;
+        System.out.println(in);
         short sH = 27897;
+        System.out.println(sH);
         byte bY = 67;
+        System.out.println(bY);
 
         //задание 3
+        byte teacherLyudmilaClassroomStudents = 23;
+        byte teacherAnnaClassroomStudents = 27;
+        byte teacherEkaterinaClassroomStudents = 30;
+        int totalStudents = teacherLyudmilaClassroomStudents+teacherAnnaClassroomStudents+teacherEkaterinaClassroomStudents;
+        System.out.println("Общее число учеников у трёх учителей "+ totalStudents);
+        short paper = 480;
+        int paperForOneStudent = paper / totalStudents;
+        System.out.println("На каждого ученика расчитано " +paperForOneStudent+ " листов бумаги!");
+
+        //задание 4
+
 
     }
 }
