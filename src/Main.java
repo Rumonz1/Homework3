@@ -75,6 +75,19 @@ public class Main {
         System.out.println("В школе, где "+totalClasses+ " классов, нужно "+totalWhiteJars+" банок белой краски и "+totalBrownJars+" банок коричневой краски");
 
         //задание 6
+        byte banana = 5;
+        byte milk = 2;
+        byte iceCream = 2;
+        byte eggs = 4;
+        byte bananaWeight = 80;
+        byte milk100MlWeignt = 105;
+        byte onePackIceCreamWeight = 100;
+        byte oneEggWeight = 70;
+        int athleticDrinkWeight = banana * bananaWeight + milk * milk100MlWeignt + iceCream * onePackIceCreamWeight + eggs * oneEggWeight;
+        float athleticDinkWeightKilo = athleticDrinkWeight / 1000;
+        System.out.println("Вес спорт-завтрака "+athleticDrinkWeight+" грамм, или "+athleticDinkWeightKilo+" килограмм");
+
+        //задание 7
 
 
 
